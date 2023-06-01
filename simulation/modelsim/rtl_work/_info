@@ -1,0 +1,108 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Program\quartus\ConvCode\simulation\modelsim
+vConv_code
+IT5EoS1LP0zCG>7_FjFNV@2
+VVi[bn1W8GLznkcO_9L70U3
+Z1 dE:\Program\quartus\ConvCode\simulation\modelsim
+w1685000973
+8E:/Program/quartus/ConvCode/Conv_code.v
+FE:/Program/quartus/ConvCode/Conv_code.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@conv_code
+Z4 !s92 -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode -O0
+!i10b 1
+!s100 HFgfh9TNCm`SNVmP3cF^B2
+!s85 0
+!s108 1685001038.191000
+!s107 E:/Program/quartus/ConvCode/Conv_code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Program/quartus/ConvCode|E:/Program/quartus/ConvCode/Conv_code.v|
+!s101 -O0
+vConv_code_tb
+I3=oN28?DSH9:jGE5K7?IS2
+VNFX6]2P`MG7KedGN9>D`N1
+R1
+w1684398897
+8E:/Program/quartus/ConvCode/Conv_code_tb.v
+FE:/Program/quartus/ConvCode/Conv_code_tb.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@conv_code_tb
+!i10b 1
+!s100 _83F7`GJ4nLcQ5nVA=Y?F3
+!s85 0
+!s108 1685001039.874000
+!s107 E:/Program/quartus/ConvCode/Conv_code_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Program/quartus/ConvCode|E:/Program/quartus/ConvCode/Conv_code_tb.v|
+!s101 -O0
+vdecode
+Ik=;U1z7h;OS8oV:iTd4U=2
+V=kGol5;`9d>bAkPgA:g1Q2
+R1
+w1684399646
+8E:/Program/quartus/ConvCode/decode.v
+FE:/Program/quartus/ConvCode/decode.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 OGTF93SJ<UhY2i]>3IINU2
+!s85 0
+!s108 1685001039.979000
+!s107 E:/Program/quartus/ConvCode/decode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Program/quartus/ConvCode|E:/Program/quartus/ConvCode/decode.v|
+!s101 -O0
+vencode
+I35j29zMhz=8FGF=B]i]:61
+V8]YBHWW66JW[dKPK5=]B03
+R1
+w1684382845
+8E:/Program/quartus/ConvCode/encode.v
+FE:/Program/quartus/ConvCode/encode.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 M4]6K^`8TbVX003b3DCc80
+!s85 0
+!s108 1685001040.087000
+!s107 E:/Program/quartus/ConvCode/encode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Program/quartus/ConvCode|E:/Program/quartus/ConvCode/encode.v|
+!s101 -O0
+vM_series
+!i10b 1
+!s100 fIj]JBan<@eWMO`c`7bL]1
+IgQK:Pf@`=G>:cnTl5bfYT2
+VY_`Jj?<C0_XC1ANeBa0lf2
+R1
+w1683639092
+8E:/Program/quartus/ConvCode/M_series.v
+FE:/Program/quartus/ConvCode/M_series.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1685001040.204000
+!s107 E:/Program/quartus/ConvCode/M_series.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Program/quartus/ConvCode|E:/Program/quartus/ConvCode/M_series.v|
+!s101 -O0
+R3
+R4
+n@m_series

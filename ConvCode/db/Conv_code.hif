@@ -1,0 +1,179 @@
+Quartus II
+Version 11.0 Build 157 04/27/2011 SJ Full Version
+13
+866
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+
+viterbi-library|
+-- End Library Paths --
+-- Start VHDL Libraries --
+viterbi-library|vi_interface.vhd
+viterbi
+viterbi-library|vi_functions.vhd
+viterbi
+-- End VHDL Libraries --
+# entity
+Conv_code
+# storage
+db|Conv_code.(0).cnf
+db|Conv_code.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+conv_code.v
+67742675ad8818e818e064593f1ffde
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+encode
+# storage
+db|Conv_code.(1).cnf
+db|Conv_code.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+encode.v
+4968a2aab6c028d2b915f198fb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+encode:encode_1
+}
+# macro_sequence
+
+# end
+# entity
+M_series
+# storage
+db|Conv_code.(2).cnf
+db|Conv_code.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+m_series.v
+1ad2127e68d5617694dc60c9bffae359
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+len
+15
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+M_series:M_series_1
+}
+# macro_sequence
+
+# end
+# entity
+decode
+# storage
+db|Conv_code.(3).cnf
+db|Conv_code.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+decode.v
+7bc4c69c7ff18a7b68450729a747a1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+decode:decode_1
+}
+# macro_sequence
+
+# end
+# complete
+

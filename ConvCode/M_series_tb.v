@@ -1,0 +1,25 @@
+`timescale 1ns/1ps
+module M_series_tb();
+
+	reg rst_n;
+	reg clk;
+	wire Q;
+	
+	M_series M_series_1
+    (
+            .clk		(clk),
+            .rst_n	(rst_n),
+            .Q			(Q)
+    );
+	initial	clk=0;
+	always #10 clk=~clk;
+	initial
+	begin
+	
+		rst_n=0;
+		#201;
+		rst_n=1;
+		
+	end
+	
+endmodule

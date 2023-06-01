@@ -1,0 +1,7 @@
+module Conv_code(
+	clk,
+	q
+	)
+	input clk;
+	output q;
+	assign q=clk;

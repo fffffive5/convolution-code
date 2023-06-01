@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jun 01 07:57:20 2023
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : Conv_code
+Top-level Entity Name : Conv_code
+Family : Cyclone III
+Device : EP3C25E144C8
+Timing Models : Final
+Total logic elements : 807 / 24,624 ( 3 % )
+    Total combinational functions : 793 / 24,624 ( 3 % )
+    Dedicated logic registers : 225 / 24,624 ( < 1 % )
+Total registers : 225
+Total pins : 5 / 83 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

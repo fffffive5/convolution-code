@@ -1,0 +1,80 @@
+# Reading G:/quartusapp/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Conv_code_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying G:\quartusapp\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied G:\quartusapp\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/Conv_code.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Conv_code
+# 
+# Top level modules:
+# 	Conv_code
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/M_series.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module M_series
+# 
+# Top level modules:
+# 	M_series
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/encode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module encode
+# 
+# Top level modules:
+# 	encode
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# 
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/Conv_code_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Conv_code_tb
+# 
+# Top level modules:
+# 	Conv_code_tb
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/encode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module encode
+# 
+# Top level modules:
+# 	encode
+# vlog -vlog01compat -work work +incdir+E:/Program/quartus/ConvCode {E:/Program/quartus/ConvCode/M_series.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module M_series
+# 
+# Top level modules:
+# 	M_series
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  Conv_code_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Conv_code_tb 
+# Loading work.Conv_code_tb
+# Loading work.Conv_code
+# Loading work.encode
+# Loading work.M_series
+# Loading work.decode
+# ** Warning: (vsim-3017) E:/Program/quartus/ConvCode/Conv_code_tb.v(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /Conv_code_tb/_Conv_code1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
